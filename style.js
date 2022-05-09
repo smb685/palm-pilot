@@ -4,7 +4,7 @@ $("#currentDay").text(currentDate);
 var currentHour = moment().format("H");
 var hourArray = [9, 10, 11, 12, 13, 14, 15, 16, 17];
 
-// timeblocks for standard business hours
+// THEN I am presented with timeblocks for standard business hours
 for (var i = 0; i < hourArray.length; i++) {
   var div1 = $("<div>");
   div1.attr("class", "row");
